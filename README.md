@@ -2,15 +2,15 @@
 A simple remote control commandline client for pjlink compatible devices written in Java
 
 <pre>
-usage: [-h] -i <ip> [-p <port>] [-a <authpass>] -c <command>
+usage: [-h] -i &lt;ip&gt; [-p &lt;port&gt;] [-a &lt;authpass&gt;] -c &lt;command&gt;
 
 PjlinkControl 1.0 (http://github.com/Bendr0id/)
 
- -a,--authpass <authpass>       The Password of the Pjlink device [default: JBMIAProjectorLink]
- -c,--command <command>        The Commant to send to the Pjlink device
+ -a,--authpass &lt;authpass&gt;       The Password of the Pjlink device [default: JBMIAProjectorLink]
+ -c,--command &lt;command&gt;        The Commant to send to the Pjlink device
  -h,--help            Prints this help
- -i,--ip <ip>             The IP of the Pjlink device
- -p,--port <port>           The Port of the Pjlink device [default: 4352]
+ -i,--ip &lt;ip&gt;             The IP of the Pjlink device
+ -p,--port &lt;port&gt;           The Port of the Pjlink device [default: 4352]
 
 Available commands:
 
