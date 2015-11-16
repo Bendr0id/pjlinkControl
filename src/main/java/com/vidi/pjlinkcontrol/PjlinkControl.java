@@ -18,6 +18,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Map;
 import java.util.Properties;
+import java.util.TreeSet;
 
 public class PjlinkControl
 {
@@ -277,9 +278,9 @@ public class PjlinkControl
 
         System.out.println("\nAvailable commands:");
 
-        for (Map.Entry<Object, Object> entry : params.entrySet())
+        for (Object key : new TreeSet(params.keySet()))
         {
-            System.out.println("\n" + entry.getKey() + " = " + entry.getValue());
+            System.out.println("\n" + key + " = " + params.get(key));
         }
     }
 
